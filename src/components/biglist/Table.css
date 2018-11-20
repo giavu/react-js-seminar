@@ -1,0 +1,52 @@
+.tb-container {
+  overflow-x: auto; /* Needed for table to be responsive */
+}
+
+.tb {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tb-head {
+  background-color: #501B1D,;
+}
+
+.tb-head tr th {
+  padding: 10px 20px;
+  color: #ADADAD;
+  text-align: left;
+  font-size: 1 rem;
+  font-weight: 400;
+}
+
+.tb-body {
+  text-align: left;
+  /* background-color: #64485C; */
+  background-color:#ADADAD;
+}
+
+.tb-body tr td {
+  padding: 24px 20px;
+  border-bottom: 2px solid #83677B; /* #87939e; */ /*#64485c */
+  color: #64485c;
+  cursor: pointer;
+}
+
+.tb-body tr:hover{
+  /* will only change background color when hoving row that belongs to the body */
+  background:white;
+}
+
+.tb-name {
+  color: #64485c;
+  /* color: #501b1d; */
+  margin-right: 18px;
+  font-size: 1.5em;
+}
+
+.tb-id {
+  color: #64485c,;
+  margin-left: 50px;
+}
+

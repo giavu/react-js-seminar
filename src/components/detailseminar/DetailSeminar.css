@@ -1,0 +1,43 @@
+.dt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding: 0 50px;
+  }
+  
+  .dt-heading {
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .dt-container {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 25px;
+    padding: 35px 35px 0 35px;
+    border-radius: 5px;
+  }
+  
+  .dt-item {
+    margin-bottom: 45px;
+  }
+  
+  .dt-value {
+    border-radius: 25px;
+    background-color: #ADADAD;
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    margin-left: 5px;
+  }
+  
+  .dt-title {
+    display: block;
+    color: #ADADAD;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
