@@ -40,7 +40,7 @@ class DetailSeminar extends React.Component {
                   Date: <span className="dt-value">{seminar.date}</span>
                   </div>
                   <div className="dt-item">
-                  Time: <span className="dt-value">{seminar.date}</span>
+                  Time: <span className="dt-value">{seminar.time}</span>
                   </div>
                </div>
             </div>
